@@ -1,0 +1,130 @@
+ /*#button{ 
+    color:chocolate;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 12px;
+    border-color: black;
+    border: none;
+    cursor: pointer ;
+    transition: opacity 0.15s;
+    transition: box-shadow 0.15s;
+    height: 35px;
+    width: 75px;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#button:hover {
+    opacity: 0.8;
+    color: darkgreen;
+}
+#button:active {
+    opacity: 0.8;
+}*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: sans-serif;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ min-height: 100vh;   
+ cursor: pointer;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    height: 70vh;
+    width: 60%;
+    background: black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px rgba(0,0,0,.5),-5px -5px 6px rgba(0,0,0,.5);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+}
+
+.form{
+    min-width: 50%;
+    min-height: 50vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    margin-left: 13vh;
+
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    
+}
+input{
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding-top: 1px;
+    margin: 5% auto;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    
+
+    
+}
+button{
+    align-items: center;
+    outline: none;
+    padding: 5px 18px;
+    border-radius: 10px;
+    border-color: white;
+    outline: none;
+    margin-left: 37px;
+    background: transparent;
+    /* background-color: white; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+
+}
+#man{
+    height: 250px;
+    width: 200px;
+    position: relative;
+    right: 15vh;
+    z-index: 2;
+    
+}
+.path{
+    position: absolute;
+    margin-right: 57.9%;
+    height: 70vh;
+    width: 100%;
+    background: crimson;
+    clip-path: circle(300px at right);
+    border-radius: 30px;
+    z-index: 2;
+}
